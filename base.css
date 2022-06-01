@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body {
+    padding: 0%;
+    margin: 0%;
+    background-color: grey;
+}
+
+form {
+    width: 20%;
+    height: 60%;
+    
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border: 5px solid #151515;
+    position: relative;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: dodgerblue;
+}
+label{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    
+}
+input,select,textarea{
+    width: 0;
+    outline: none;
+    padding: 0;
+    background: none;
+    font-size: 1.1rem;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+  }
+    
+
+
+ul,h2{
+    text-align: center;
+    padding: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.button:active {
+    background-color: #fff;
+}
+p.para{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: dodgerblue;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: dodgerblue;
+    position: fixed;
+    
+  
+}
+#btn {
+    border: none; 
+    color:black; /* Add a text color */
+    padding: 14px 28px; /* Add some padding */
+    cursor: pointer; 
+  }
